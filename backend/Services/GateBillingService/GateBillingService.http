@@ -1,0 +1,6 @@
+@GateBillingService_HostAddress = http://localhost:5163
+
+GET {{GateBillingService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@VesselTrafficService_HostAddress = http://localhost:5187
+
+GET {{VesselTrafficService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

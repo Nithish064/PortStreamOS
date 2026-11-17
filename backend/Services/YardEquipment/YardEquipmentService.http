@@ -1,0 +1,6 @@
+@YardEquipmentService_HostAddress = http://localhost:5095
+
+GET {{YardEquipmentService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

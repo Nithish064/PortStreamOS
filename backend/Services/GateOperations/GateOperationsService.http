@@ -1,0 +1,6 @@
+@GateOperationsService_HostAddress = http://localhost:5080
+
+GET {{GateOperationsService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

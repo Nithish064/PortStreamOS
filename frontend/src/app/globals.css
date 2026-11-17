@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-port-dark: #0f172a;
+  --color-port-panel: #1e293b;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+}
+
+body {
+  background-color: var(--color-port-dark);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+.glass-panel {
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.kanban-column {
+  min-height: 500px;
+  transition: background-color 0.2s ease;
+}
+
+.kanban-card {
+  cursor: grab;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kanban-card:active {
+  cursor: grabbing;
+  transform: scale(1.02);
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
