@@ -1,28 +1,22 @@
 <Solution>
   <Folder Name="/Services/" />
-  <Folder Name="/Services/BillingTariff/">
-    <Project Path="Services/BillingTariff/BillingTariffService.csproj" />
+  <Folder Name="/Services/VesselTraffic/">
+    <Project Path="Services/VesselTraffic/VesselTrafficService.csproj" />
+  </Folder>
+  <Folder Name="/Services/YardEquipment/">
+    <Project Path="Services/YardEquipment/YardEquipmentService.csproj" />
   </Folder>
   <Folder Name="/Services/CustomsRisk/">
     <Project Path="Services/CustomsRisk/CustomsRiskService.csproj" />
   </Folder>
-  <Folder Name="/Services/Environment/">
-    <Project Path="Services/Environment/EnvironmentService.csproj" />
+  <Folder Name="/Services/GateBilling/">
+    <Project Path="Services/GateBillingService/GateBillingService.csproj" />
   </Folder>
-  <Folder Name="/Services/GateOperations/">
-    <Project Path="Services/GateOperations/GateOperationsService.csproj" />
+  <Folder Name="/Services/Operations/">
+    <Project Path="Services/OperationsService/OperationsService.csproj" />
   </Folder>
   <Folder Name="/Services/Notification/">
-    <Project Path="Services/Notification/NotificationService.csproj" />
-  </Folder>
-  <Folder Name="/Services/VesselTraffic/">
-    <Project Path="Services/VesselTraffic/VesselTrafficService.csproj" />
-  </Folder>
-  <Folder Name="/Services/Workforce/">
-    <Project Path="Services/Workforce/WorkforceService.csproj" />
-  </Folder>
-  <Folder Name="/Services/YardEquipment/">
-    <Project Path="Services/YardEquipment/YardEquipmentService.csproj" />
+    <Project Path="Services/NotificationService/NotificationService.csproj" />
   </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/PortStream.Shared.csproj" />

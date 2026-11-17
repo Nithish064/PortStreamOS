@@ -1,6 +1,0 @@
-@BillingTariffService_HostAddress = http://localhost:5218
-
-GET {{BillingTariffService_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
